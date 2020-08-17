@@ -43,7 +43,7 @@ public class CreateTaskServlet extends HttpServlet {
 		queue_pull.add(TaskOptions.Builder.withMethod(TaskOptions.Method.PULL).payload("This is an ack message")); // data returned when task is released. 
 		 List<TaskHandle> tasks=queue_pull.leaseTasks(30, TimeUnit.MINUTES, 1);
 		 
-		out.println(request.getParameter("ack"));
+	//	out.println(request.getParameter("ack"));
 		System.out.println(tasks.get(0));
 	
 	}catch(Exception e)

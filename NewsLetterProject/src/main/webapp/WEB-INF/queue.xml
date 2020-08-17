@@ -13,5 +13,8 @@
 <rate>1/s</rate>
 <bucket-size>40</bucket-size>
 </queue>
-
+<queue>
+<name>email-acknowledgment</name>
+<mode>pull</mode>
+</queue>
 </queue-entries>

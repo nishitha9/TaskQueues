@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+<cron>
+<url>/hello</url>
+<schedule>every 30 seconds</schedule>
+</cron>
+
+
+</cronentries>
+<!--<beans>
+ <task:scheduler id="schedule" pool-size="10"/>
+
+<task:scheduled-tasks>
+
+</task:scheduled-task>
+</beans>  -->
